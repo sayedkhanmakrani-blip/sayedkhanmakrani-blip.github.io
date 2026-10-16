@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo sites | Sayed</title>
+<meta name="description" content="Sample one-page websites for local businesses in Tampa, FL.">
+<meta name="robots" content="noindex">
+<style>
+  :root { --bg:#0f1115; --card:#1a1e27; --fg:#eef1f6; --mut:#9aa3b2; --a:#6ea8fe; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.5; padding: 48px 20px 80px; }
+  .w { max-width: 920px; margin: 0 auto; }
+  h1 { font-size: clamp(1.8rem, 4vw, 2.4rem); margin-bottom: 8px; }
+  .sub { color: var(--mut); margin-bottom: 36px; max-width: 540px; }
+  .grid { display: grid; gap: 16px; }
+  @media (min-width: 720px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+  a.card { display: block; background: var(--card); border: 1px solid #2a3140; border-radius: 14px; padding: 22px; color: inherit; text-decoration: none; transition: border-color .2s, transform .2s; }
+  a.card:hover { border-color: var(--a); transform: translateY(-2px); }
+  .tag { display: inline-block; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--a); margin-bottom: 10px; }
+  a.card h2 { font-size: 1.15rem; margin-bottom: 8px; }
+  a.card p { color: var(--mut); font-size: .92rem; }
+  footer { margin-top: 40px; color: var(--mut); font-size: .85rem; }
+</style>
+</head>
+<body>
+<div class="w">
+  <h1>Demo sites</h1>
+  <p class="sub">Sample one-page websites for local Tampa businesses. Built as free demos for outreach. Not affiliated with these shops.</p>
+  <div class="grid">
+    <a class="card" href="./tijanis-barber-shop/">
+      <span class="tag">Barber</span>
+      <h2>Tijani's Barber Shop</h2>
+      <p>University Square · 657 Google reviews</p>
+    </a>
+    <a class="card" href="./richards-quality-automotive/">
+      <span class="tag">Auto repair</span>
+      <h2>Richard's Quality Automotive</h2>
+      <p>E Hillsborough Ave · 450 Google reviews</p>
+    </a>
+    <a class="card" href="./hair-bar-experts/">
+      <span class="tag">Salon</span>
+      <h2>Hair Bar Experts</h2>
+      <p>W Hillsborough Ave · 224 Google reviews</p>
+    </a>
+  </div>
+  <footer>Demo pages for portfolio and outreach only.</footer>
+</div>
+</body>
+</html>
